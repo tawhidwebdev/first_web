@@ -1,0 +1,58 @@
+/* Reset styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,ol,a{
+  list-style: none;
+  text-decoration: none;
+}
+/* Variables Code */
+:root {
+  /* Color Variables */
+  --primary-color: #4E47FF;
+  --secondary-color: #252432;
+  --background-color: #F5F8FF;
+  --text-color: #8987A1;
+  /* Font Variables */
+  --font-raleway: 'Raleway', sans-serif;
+  --font-inter: 'Inder', sans-serif;
+}
+/* Common styles */
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.common_btn{
+  display: flex;
+  padding: 12px 36px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 16px;
+  font-family: var(--font-raleway);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  border: none;
+  cursor: pointer;
+}
+/* header style */
+.logo_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.logo_wrapper .logo h3{
+  font-size: 34px;
+  color: var(--primary-color);
+  font-style: normal;
+  font-weight: 900;
+  line-height: 150%;
+  font-family: var(--font-inter)
+}
+/* banner style */
