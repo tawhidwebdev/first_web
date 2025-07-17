@@ -43,7 +43,7 @@ body{
   border: none;
   cursor: pointer;
 }
-/* header style */
+/* Header style */
 header{
   position: absolute;
   width: 100%;
@@ -63,7 +63,7 @@ header{
   font-family: var(--font-raleway);
   text-transform: uppercase;
 }
-/* banner style */
+/* Banner style */
 .banner{
   padding: 300px 0 158px 0;
   background-image: url(../images/Hero-bg.png);
@@ -85,4 +85,44 @@ header{
   font-family: var(--font-raleway);
   max-width: 905px;
 }
-  
+/* Action style */
+.action_weapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 116px 0 116px 0;
+}
+.action_content{
+  display: flex;
+  flex-direction: column;
+  row-gap: 23px;
+  max-width: 517px;
+}
+.action_title{
+  color: var(--secondary-color);
+  font-size: 42px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: var(--font-raleway);
+  line-height: normal;
+}
+.action_sub_title{
+  color: var(--text-color);
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: var(--font-raleway);
+  line-height: 30px;
+}
+.action_img_wrapper{
+  max-width: 403px;
+  max-height: 428px;
+  border-radius: 48px;
+  overflow: hidden;
+}
+.action_img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 48px;
+}
