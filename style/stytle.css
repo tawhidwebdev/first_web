@@ -127,3 +127,48 @@ header{
   object-fit: cover;
   border-radius: 48px;
 }
+/* Productive user style */
+.productive_user_wrapper{
+  width: 1140px;
+  padding: 50px 80px;
+  border-radius: 24px;
+  background: rgba(78, 71, 255, 0.10);
+  text-align: center;
+}
+.productive_user_title{
+  color: var(--secondary-color);
+  font-size: 38px;
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  line-height: normal;
+  font-style: normal;
+}
+.productive_user_wrapper .users{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 158px;
+}
+.productive_user_wrapper .users .user{
+  display: flex;
+  flex-direction: column;
+}
+.productive_user_wrapper .users .user span{
+  color: var(--primary-color);
+  font-size: 80px;
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.productive_user_wrapper .users .user h6{
+  color: rgba(0, 0, 0, 0.50);
+  font-size: 20px;
+  font-family: var(--font-inter);
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+}
+
