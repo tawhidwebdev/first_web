@@ -20,6 +20,9 @@ ul,ol,a{
   --font-inter: 'Inder', sans-serif;
 }
 /* Common styles */
+body{
+  background-color: var(--background-color);
+}
 .container{
   max-width: 1140px;
   margin: 0 auto;
@@ -41,6 +44,10 @@ ul,ol,a{
   cursor: pointer;
 }
 /* header style */
+header{
+  position: absolute;
+  width: 100%;
+}
 .logo_wrapper{
   display: flex;
   align-items: center;
@@ -53,6 +60,29 @@ ul,ol,a{
   font-style: normal;
   font-weight: 900;
   line-height: 150%;
-  font-family: var(--font-inter)
+  font-family: var(--font-raleway);
+  text-transform: uppercase;
 }
 /* banner style */
+.banner{
+  padding: 300px 0 158px 0;
+  background-image: url(../images/Hero-bg.png);
+}
+.banner_wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 37px;
+}
+.banner_title{
+  font-size: 65px;
+  color: var(--secondary-color);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  font-family: var(--font-raleway);
+  max-width: 905px;
+}
+  
