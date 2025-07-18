@@ -278,7 +278,7 @@ header{
   border-radius: 48px;
   object-fit: cover;
 }
-/* Get in touch section */
+/* Get in touch style */
 .get_in_touch{
   margin-top: 92px;
   padding: 71px 0;
@@ -328,4 +328,48 @@ header{
   font-family: var(--font-inter);
   font-weight: 400;
   line-height: 150%;
+}
+/* Footer style */
+.footer{
+  padding: 104px 0;
+  background-color: #ffffff;
+}
+.footer_wrapper{
+  text-align: center;
+}
+.footer_logo span{
+  color: var(--primary-color);
+  font-size: 100px;
+  font-family: var(--font-inter);
+  font-weight: 900;
+  line-height: normal;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.footer_content{
+  color: var(--text-color);
+  font-size: 16px;
+  font-family: var(--font-inter);
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 8px;
+  max-width: 530px;
+  margin: 0 auto;
+}
+.footer_links{
+  margin-top: 20px;
+}
+.footer_links ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 48px;
+}
+.footer_links ul li a{
+  color: var(--text-color);
+  font-size: 16px;
+  font-family: var(--font-inter);
+  font-weight: 400;
+  line-height: 150%;
+  text-transform:capitalize;
 }
