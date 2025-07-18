@@ -171,11 +171,11 @@ header{
   font-style: normal;
   line-height: normal;
 }
-/* Get in touch style */
-.get_in_touch_wrapper{
+/* Users feedback style */
+.users_feedback_wrapper{
   margin-top: 137px;
 }
-.get_in_touch_title{
+.users_feedback_title{
   color: var(--secondary-color);
   font-size: 42px;
   font-family: var(--font-raleway);
@@ -184,21 +184,21 @@ header{
   font-style: normal;
   text-align: center;
 }
-.get_in_touch_reviewer_wrapper{
+.users_feedback_reviewer_wrapper{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
 }
-.get_in_touch_reviewer{
+.users_feedback_reviewer{
   width: 366px;
   padding: 24px;
   border-radius: 14px;
   border: 1px solid #F2EDED;
   background: rgba(255, 255, 255, 0.50);
 }
-.get_in_touch_sub_title{
+.users_feedback_sub_title{
   color: var(--secondary-color);
   font-size: 24px;
   font-family: var(--font-inter);
@@ -207,7 +207,7 @@ header{
   font-style: normal;
   margin-top: 24px;
 }
-.get_in_touch_content{
+.users_feedback_content{
   color: Gray/900;
   font-size: 16px;
   font-family: var(--font-inter);
@@ -216,26 +216,26 @@ header{
   font-style: normal;
   margin-top: 8px;
 }
-.get_in_touch_reviewer_profile{
+.users_feedback_profile{
   display: flex;
   align-items: center;
   column-gap: 12px;
   margin-top: 24px;
 }
-.get_in_touch_user_img{
+.users_feedback_img{
   width: 48px;
   height: 48px;
   border-radius: 50%;
   object-fit: cover;
 }
-.get_in_touch_user_info h6{
+.users_feedback_info h6{
   color: Gray/500;
   font-size: 16px;
   font-family: var(--font-inter);
   font-weight: 600;
   line-height: 140%;
 }
-.get_in_touch_user_info input{
+.users_feedback_info input{
   color: gray/400;
   font-size: 16px;
   font-family: var(--font-inter);
