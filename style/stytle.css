@@ -41,6 +41,10 @@ body{
   cursor: pointer;
   display: inline-block;
 }
+.common_btn:hover{
+  background-color: #0202c7;
+  transition: all linear 0.3s;
+}
 /* Header style */
 header{
   position: absolute;
