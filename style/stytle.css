@@ -17,7 +17,7 @@ ul,ol,a{
   --text-color: #8987A1;
   /* Font Variables */
   --font-raleway: 'Raleway', sans-serif;
-  --font-inter: 'Inder', sans-serif;
+  --font-inter: 'Inter', sans-serif;
 }
 /* Common styles */
 body{
@@ -58,7 +58,7 @@ header{
   font-style: normal;
   font-weight: 900;
   line-height: 150%;
-  font-family: var(--font-raleway);
+  font-family: var(--font-inter);
   text-transform: uppercase;
 }
 /* Banner style */
@@ -277,4 +277,55 @@ header{
   height: auto;
   border-radius: 48px;
   object-fit: cover;
+}
+/* Get in touch section */
+.get_in_touch{
+  margin-top: 92px;
+  padding: 71px 0;
+}
+.get_in_touch_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.get_in_touch_title{
+  max-width: 528px;
+}
+.get_in_touch_title h2{
+  color: black;
+  font-size: 97px;
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  line-height: 120%;
+}
+.get_in_touch_form_wrapper{
+  width: 497px;
+}
+.get_in_touch_form_wrapper form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 19px;
+}
+.get_in_touch_form_wrapper form div{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.get_in_touch_form_wrapper form div span{
+  color: black;
+  font-size: 18px;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  line-height: 120%;
+}
+.get_in_touch_form_wrapper form div input,
+.get_in_touch_form_wrapper form div textarea{
+  padding: 20px 35px;
+  border-radius: 10px;
+  border: 1px solid #D6DDED;
+  background-color: #ffffff;
+  font-size: 20px;
+  font-family: var(--font-inter);
+  font-weight: 400;
+  line-height: 150%;
 }
